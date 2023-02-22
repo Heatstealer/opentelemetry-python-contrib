@@ -17,6 +17,7 @@ import logging
 from celery import registry  # pylint: disable=no-name-in-module
 from celery.backends.amqp import Exchange, Queue  # pylint: disable=no-name-in-module
 
+
 from opentelemetry.semconv.trace import SpanAttributes
 
 logger = logging.getLogger(__name__)
